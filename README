@@ -1,0 +1,25 @@
+Script Features:
+
+
+1. Identifies Installed Components: Checks for OpenStack-related packages installed on the system.
+
+2. Service Status: Reports the status (active or not active) of detected services.
+
+3. DNS Validation: Verifies if standard OpenStack component DNS records exist.
+
+4. Running Process Detection: Lists currently running OpenStack-related processes.
+
+5. Save Report: Allows the user to save the report with a timestamp and hostname.
+
+
+* How to Use:
+
+a. Save the script as openstack_component_check.sh.
+
+b. Make it executable: chmod +x openstack_component_check.sh.
+
+c. Run the script: sudo ./openstack_component_check.sh.
+
+
+
+This script provides a comprehensive view of the OpenStack components and their statuses, which is essential for system administrators managing OpenStack Carakal environments.
